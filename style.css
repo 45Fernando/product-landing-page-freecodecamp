@@ -1,0 +1,147 @@
+body {
+  font-family: "Roboto" , Helvetica;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: #d1db7f;
+}
+
+#header-img {
+  width: 200px;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+nav {
+  font-weight: 550;  
+}
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {  
+  background-color: #f6ffab;
+}
+
+main {
+  margin-top: 200px;
+}
+
+#comunicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-text: center;  
+}
+
+
+#submit {
+  margin-bottom: 10px;
+  background-color: #b8c928;
+  font-weight: 600;
+  display: block;
+  margin: auto; 
+}
+
+#container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#caracteristicas {
+  margin-top: 30px;
+}
+
+#caract {
+  text-align: center;  
+}
+
+#funciona{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;;
+}
+
+video {
+  z-index: -1;
+}
+
+#precio {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+#product > h2 {
+  margin-bottom: 0px;
+}
+
+#product > button {
+  margin-bottom: 10px;
+  background-color: #b8c928;
+  font-weight: 600;
+}
+
+#product > li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+#prod{
+  background-color: #b8c928;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+
+@media (max-height: 800px) {
+  p {
+    font-size = 10px;
+  }
+}
